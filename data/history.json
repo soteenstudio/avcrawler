@@ -1,0 +1,220 @@
+{
+  "urls": {
+    "https://www.kompas.com": {
+      "timestamp": 1793935438981,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "cc42804ffea94fd9f6d9411efddb30343c5bb17dc5a54761bb4ff2724f23bace",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.detik.com": {
+      "timestamp": 1793935443012,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "5465054de16f26b4dc9af21db8d00f92dac3705d962f41710846289b43acfb20",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.antaranews.com": {
+      "timestamp": 1793935447337,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Berita terkini dan terpercaya Indonesia - ANTARA News",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "cad383fd2373162bc4b433c88ee1c7650d71ccc3256226247525a36fd205dbb0",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.tempo.co": {
+      "timestamp": 1793935452265,
+      "status": "error",
+      "message": "HTTP 403",
+      "consecutiveErrors": 1
+    },
+    "https://www.republika.co.id": {
+      "timestamp": 1793935456095,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Republika Online",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "ce0b62a9798a35fa6b2b2c5f377cc63b60dd5107c8a80286acf4706be957a883",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://lestari.kompas.com/tujuan/kehidupan-sehat-dan-sejahtera": {
+      "timestamp": 1793935460700,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Kehidupan Sehat dan Sejahtera - Lestari KG Media - Kompas.com",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "1f006fed8502405f62f081155c4975f5c1fa4ff19b64ccb2cee60cc409bf159e",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://lestari.kompas.com/tujuan/air-bersih-dan-sanitasi-layak": {
+      "timestamp": 1793935464591,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Air Bersih dan Sanitasi Layak - Lestari KG Media - Kompas.com",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "a69554921c95f09cd1e08018359da112533cf64e30392d74184d45bcf28494a4",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://lestari.kompas.com/tujuan/energi-bersih-dan-terjangkau": {
+      "timestamp": 1793935469115,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Energi Bersih dan Terjangkau - Lestari KG Media - Kompas.com",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "a8fb1ebf8de05876d42129024b91868825fafe702a42f36e2ab6e5e301c415fa",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://news.detik.com/berita/d-8740617/terjebak-karhutla-di-kalteng-2-orang-utan-fajar-dan-fitri-dievakuasi": {
+      "timestamp": 1793935471390,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Terjebak Karhutla di Kalteng, 2 Orang Utan Fajar dan Fitri Dievakuasi",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "0de724e845bfefe687a8825d6d188b3b08c289a8b4f82dfc1fff87a3b75bc962",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.detik.com/jabar/berita/d-8740365/penghormatan-terakhir-untuk-letkol-anwar-usai-gugur-padamkan-karhutla": {
+      "timestamp": 1793935475389,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Penghormatan Terakhir untuk Letkol Anwar Usai Gugur Padamkan Karhutla",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "6ac5d00b8f0658c45c2f0bcf3ee9ee4c1064838dfcf3e7c5ee58b192c5c8b8c5",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.detik.com/kalimantan/kalimantan-lestari/d-8740536/2-orang-utan-korban-karhutla-di-km-24-kobar-telah-dievakuasi": {
+      "timestamp": 1793935476649,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "2 Orang Utan Korban Karhutla di Km 24 Kobar Telah Dievakuasi",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "e415b92e88d02501b8fa41b25246725c5418d9a935cad11824f0cc6dff990d99",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.antaranews.com/berita/5835747/bgn-sebut-tak-ada-kewajiban-sppg-kurangi-jumlah-tenaga-relawan-mbg": {
+      "timestamp": 1793935480429,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "BGN sebut tak ada kewajiban SPPG kurangi jumlah tenaga relawan MBG - ANTARA News",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "ba098a16f213d1f838cbf8ec5bfbf586cb749b003207c96c93ba085696f44f73",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.antaranews.com/berita/5835739/pelajaran-besar-dari-kekalahan-telak-donald-trump-dan-partai-republik": {
+      "timestamp": 1793935481439,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Pelajaran besar dari kekalahan telak Donald Trump dan Partai Republik - ANTARA News",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "fc1bdf459627b57c7ceab5a3ce279b8dc6d4d15f3692464e89b01014b4740738",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://www.antaranews.com/berita/5835715/persib-punya-kans-besar-terus-melaju-minimal-perempat-final-acl-2": {
+      "timestamp": 1793935484254,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Persib punya kans besar terus melaju, minimal perempat final ACL 2 - ANTARA News",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "9dbf8acccbb04f636e9b7652a3045009dac498d492138cf97abde95a24195a08",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://republika.co.id/tag/dua-tahun-prabowo-gibran": {
+      "timestamp": 1793935487445,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Topic : dua-tahun-prabowo-gibran | Republika Online",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "19f9890fc6083a7c31514615cfd2b07430ecbb83ba4ab4be2e5558ec85f277d8",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://republika.co.id/page/jadwal_sholat/jakarta": {
+      "timestamp": 1793935491813,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Jadwal Shalat Hari Ini   06 November 2026 -  Jakarta dan Sekitarnya  | Republika Online",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "7ace659f7a6f02b812ab5e3128214b75d5f8eac32d7913e4929bd8feebaf5618",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    },
+    "https://ekonomi.republika.co.id/berita/to24rd423/indef-wantiwanti-lonjakan-harga-pangan-jelang-natal-dan-tahun-baru-2027": {
+      "timestamp": 1793935494893,
+      "status": "success",
+      "httpStatus": 200,
+      "title": "Indef Wanti-Wanti Lonjakan Harga Pangan Jelang Natal dan Tahun Baru 2027 | Republika Online",
+      "etag": null,
+      "lastModified": null,
+      "contentHash": "850eeebb1634a973d0d94bd9665085bd63aea2af2fd7f58750c661995a25128d",
+      "changeCount": 0,
+      "consecutiveErrors": 0
+    }
+  },
+  "domains": {
+    "kompas.com": {
+      "failures": 0,
+      "blockedUntil": 0
+    },
+    "detik.com": {
+      "failures": 0,
+      "blockedUntil": 0
+    },
+    "antaranews.com": {
+      "failures": 0,
+      "blockedUntil": 0
+    },
+    "tempo.co": {
+      "failures": 1,
+      "blockedUntil": 0
+    },
+    "republika.co.id": {
+      "failures": 0,
+      "blockedUntil": 0
+    },
+    "lestari.kompas.com": {
+      "failures": 0,
+      "blockedUntil": 0
+    },
+    "news.detik.com": {
+      "failures": 0,
+      "blockedUntil": 0
+    },
+    "ekonomi.republika.co.id": {
+      "failures": 0,
+      "blockedUntil": 0
+    }
+  }
+}
