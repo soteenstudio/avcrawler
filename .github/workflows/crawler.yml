@@ -14,7 +14,7 @@ concurrency:
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
-    timeout-minutes: 35 # Pengaman terakhir dari GitHub, di atas batas crawler (25m)
+    timeout-minutes: 30 # Pengaman terakhir dari GitHub, di atas batas crawler (20m)
     permissions:
       contents: write # Wajib biar actions bisa push commit balik ke repo
 
@@ -31,40 +31,47 @@ jobs:
         run: |
           if [ -f package-lock.json ]; then npm ci; else npm install; fi
 
-      # Lapis 1: crawler berhenti sendiri dengan rapi di menit ke-20 (MAX_RUNTIME_MIN)
-      # Lapis 2: kalau masih nyangkut, `timeout` kirim SIGTERM di menit ke-25 (shutdown rapi),
+      # Lapis 1: crawler berhenti sendiri dengan rapi di menit ke-15 (MAX_RUNTIME_MIN)
+      # Lapis 2: kalau masih nyangkut, `timeout` kirim SIGTERM di menit ke-20 (shutdown rapi),
       #          lalu SIGKILL 30 detik kemudian kalau tetap tidak mau berhenti.
       - name: Run Crawler Script
         env:
-          MAX_RUNTIME_MIN: '20'
+          MAX_RUNTIME_MIN: '15'
+          # --- Tuas volume (lihat README/penjelasan): naikkan pelan-pelan ---
+          MAX_PAGES_PER_HOST: '120'      # halaman per host per run
+          DAILY_BUDGET_PER_HOST: '600'   # batas keras per host per hari
+          CRAWL_DELAY_MS: '4000'         # jeda minimum antar request ke host yang sama
+          LOOKBACK_HOURS: '48'
         run: |
           set +e
-          timeout --signal=TERM --kill-after=30s 25m node crawler.js
+          timeout --signal=TERM --kill-after=30s 20m node crawler.js
           code=$?
           case $code in
             0) ;;
             124|137|143)
-              echo "::warning::Crawler dihentikan paksa (exit $code). History akan divalidasi sebelum commit." ;;
+              echo "::warning::Crawler dihentikan paksa (exit $code). Data akan divalidasi sebelum commit." ;;
             *)
               echo "::error::Crawler gagal (exit $code)"
               exit $code ;;
           esac
 
-      # Lapis 3: pastikan history/data tidak rusak sebelum masuk ke repo.
-      # `always()` supaya tetap jalan walau langkah crawler timeout atau gagal.
+      # `always()` supaya langkah-langkah ini tetap jalan walau crawler timeout atau gagal.
       - name: Validate Data (anti-corrupt)
         if: always()
         run: node scripts/validate-data.js
 
-      - name: Commit and Push Changes (History update)
+      - name: Compact Old Data (gzip hari-hari sebelumnya)
+        if: always()
+        run: node scripts/compact-data.js
+
+      - name: Commit and Push Changes
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
-          for f in data/history.json data/articles.jsonl; do
-            [ -f "$f" ] && git add "$f"
-          done
+          [ -f data/history.json ] && git add data/history.json
+          [ -d data/articles ] && git add -A data/articles
 
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan untuk di-commit."
