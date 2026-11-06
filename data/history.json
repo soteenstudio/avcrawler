@@ -1639,6 +1639,30 @@
    "status": "success",
    "contentHash": "d4d049fca939dbcb",
    "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/06/103835571/7-keahlian-yang-harus-dimiliki-mahasiswa-saat-kuliah-bisa-bantu-persiapan": {
+   "timestamp": 1793937168267,
+   "status": "success",
+   "contentHash": "dda4bcae8003df53",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/04/213000565/apakah-tarif-listrik-akan-naik-pln-beri-kepastian-begini": {
+   "timestamp": 1793937173528,
+   "status": "success",
+   "contentHash": "02ab233ad16d16b1",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/04/210000465/sering-pakai-headphone-sepanjang-hari-pakar-ingatkan-dampak-tersembunyi": {
+   "timestamp": 1793937177622,
+   "status": "success",
+   "contentHash": "276b233a0435a3f8",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/04/203802866/vokal-soal-situasi-di-indonesia-saat-ini-baskara-putra-reaksi-normal": {
+   "timestamp": 1793937182559,
+   "status": "success",
+   "contentHash": "dea6386080df65a0",
+   "consecutiveErrors": 0
   }
  },
  "domains": {
@@ -1647,7 +1671,7 @@
    "blockedUntil": 0,
    "daily": {
     "date": "2026-11-06",
-    "count": 107
+    "count": 110
    }
   },
   "detik.com": {
@@ -1691,7 +1715,7 @@
    "blockedUntil": 0,
    "daily": {
     "date": "2026-11-06",
-    "count": 12
+    "count": 13
    }
   },
   "edukasi.kompas.com": {

@@ -39,7 +39,7 @@ const CONFIG = {
     maxPagesPerHost: num(process.env.MAX_PAGES_PER_HOST, 120),        // batas halaman per host per run
     dailyBudgetPerHost: num(process.env.DAILY_BUDGET_PER_HOST, 600),  // batas keras per host per hari
     lookbackHours: num(process.env.LOOKBACK_HOURS, 48),               // hanya ambil URL baru dari sitemap/RSS
-    maxDiscoveryFetches: 8,                                           // batas request sitemap/RSS per host per run
+    maxDiscoveryFetches: num(process.env.MAX_DISCOVERY_FETCHES, 8),   // batas request sitemap/RSS per host per run (sitemap bisa besar!)
     maxSitemapsPerIndex: 4,
 
     // --- Cooldown & data ---
@@ -72,7 +72,7 @@ const state = {
     buffer: [],   // record yang menunggu ditulis ke file harian
     dirty: false,
     stopping: false,
-    stats: { attempted: 0, saved: 0, unchanged: 0, notModified: 0, errors: 0, blocked: 0 }
+    stats: { attempted: 0, saved: 0, unchanged: 0, notModified: 0, errors: 0, blocked: 0, bytes: 0 }
 };
 
 // ============================================================
@@ -245,6 +245,8 @@ async function politeGet(url, extraHeaders = {}, opts = {}) {
                 validateStatus: () => true
             });
             res.elapsedMs = Date.now() - started;
+            // Ukuran setelah didekompres (data di kabel biasanya 3-5x lebih kecil karena gzip)
+            state.stats.bytes += res.data ? (typeof res.data === 'string' ? Buffer.byteLength(res.data) : res.data.length) : 0;
             adaptThrottle(host, res.status, res.elapsedMs);
 
             const retryable = res.status === 429 || res.status >= 500;
@@ -778,6 +780,7 @@ async function crawl() {
     flush();
     const s = state.stats;
     log('DONE', `${s.attempted} request halaman | ${s.saved} record disimpan | ${s.unchanged} sama | ${s.notModified} 304 | ${s.blocked} diblok robots | ${s.errors} error`);
+    log('BANDWIDTH', `~${(s.bytes / 1048576).toFixed(1)} MB diunduh (setelah dekompres; di kabel kira-kira 3-5x lebih kecil)`);
 }
 
 crawl().catch((e) => {
