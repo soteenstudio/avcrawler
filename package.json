@@ -1,0 +1,29 @@
+{
+  "name": "avcrawler",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "crawler",
+    "polite"
+  ],
+  "homepage": "https://github.com/soteenstudio/avcrawler#readme",
+  "bugs": {
+    "url": "https://github.com/soteenstudio/avcrawler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soteenstudio/avcrawler.git"
+  },
+  "license": "Apache-2.0",
+  "author": "SoTeen Studio",
+  "type": "commonjs",
+  "main": "crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "cheerio": "^1.2.0",
+    "robots-parser": "^3.0.1"
+  }
+}
