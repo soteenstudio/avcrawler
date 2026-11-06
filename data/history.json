@@ -1,220 +1,1706 @@
 {
-  "urls": {
-    "https://www.kompas.com": {
-      "timestamp": 1793935438981,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "cc42804ffea94fd9f6d9411efddb30343c5bb17dc5a54761bb4ff2724f23bace",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.detik.com": {
-      "timestamp": 1793935443012,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "5465054de16f26b4dc9af21db8d00f92dac3705d962f41710846289b43acfb20",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.antaranews.com": {
-      "timestamp": 1793935447337,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Berita terkini dan terpercaya Indonesia - ANTARA News",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "cad383fd2373162bc4b433c88ee1c7650d71ccc3256226247525a36fd205dbb0",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.tempo.co": {
-      "timestamp": 1793935452265,
-      "status": "error",
-      "message": "HTTP 403",
-      "consecutiveErrors": 1
-    },
-    "https://www.republika.co.id": {
-      "timestamp": 1793935456095,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Republika Online",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "ce0b62a9798a35fa6b2b2c5f377cc63b60dd5107c8a80286acf4706be957a883",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://lestari.kompas.com/tujuan/kehidupan-sehat-dan-sejahtera": {
-      "timestamp": 1793935460700,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Kehidupan Sehat dan Sejahtera - Lestari KG Media - Kompas.com",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "1f006fed8502405f62f081155c4975f5c1fa4ff19b64ccb2cee60cc409bf159e",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://lestari.kompas.com/tujuan/air-bersih-dan-sanitasi-layak": {
-      "timestamp": 1793935464591,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Air Bersih dan Sanitasi Layak - Lestari KG Media - Kompas.com",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "a69554921c95f09cd1e08018359da112533cf64e30392d74184d45bcf28494a4",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://lestari.kompas.com/tujuan/energi-bersih-dan-terjangkau": {
-      "timestamp": 1793935469115,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Energi Bersih dan Terjangkau - Lestari KG Media - Kompas.com",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "a8fb1ebf8de05876d42129024b91868825fafe702a42f36e2ab6e5e301c415fa",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://news.detik.com/berita/d-8740617/terjebak-karhutla-di-kalteng-2-orang-utan-fajar-dan-fitri-dievakuasi": {
-      "timestamp": 1793935471390,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Terjebak Karhutla di Kalteng, 2 Orang Utan Fajar dan Fitri Dievakuasi",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "0de724e845bfefe687a8825d6d188b3b08c289a8b4f82dfc1fff87a3b75bc962",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.detik.com/jabar/berita/d-8740365/penghormatan-terakhir-untuk-letkol-anwar-usai-gugur-padamkan-karhutla": {
-      "timestamp": 1793935475389,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Penghormatan Terakhir untuk Letkol Anwar Usai Gugur Padamkan Karhutla",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "6ac5d00b8f0658c45c2f0bcf3ee9ee4c1064838dfcf3e7c5ee58b192c5c8b8c5",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.detik.com/kalimantan/kalimantan-lestari/d-8740536/2-orang-utan-korban-karhutla-di-km-24-kobar-telah-dievakuasi": {
-      "timestamp": 1793935476649,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "2 Orang Utan Korban Karhutla di Km 24 Kobar Telah Dievakuasi",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "e415b92e88d02501b8fa41b25246725c5418d9a935cad11824f0cc6dff990d99",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.antaranews.com/berita/5835747/bgn-sebut-tak-ada-kewajiban-sppg-kurangi-jumlah-tenaga-relawan-mbg": {
-      "timestamp": 1793935480429,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "BGN sebut tak ada kewajiban SPPG kurangi jumlah tenaga relawan MBG - ANTARA News",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "ba098a16f213d1f838cbf8ec5bfbf586cb749b003207c96c93ba085696f44f73",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.antaranews.com/berita/5835739/pelajaran-besar-dari-kekalahan-telak-donald-trump-dan-partai-republik": {
-      "timestamp": 1793935481439,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Pelajaran besar dari kekalahan telak Donald Trump dan Partai Republik - ANTARA News",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "fc1bdf459627b57c7ceab5a3ce279b8dc6d4d15f3692464e89b01014b4740738",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://www.antaranews.com/berita/5835715/persib-punya-kans-besar-terus-melaju-minimal-perempat-final-acl-2": {
-      "timestamp": 1793935484254,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Persib punya kans besar terus melaju, minimal perempat final ACL 2 - ANTARA News",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "9dbf8acccbb04f636e9b7652a3045009dac498d492138cf97abde95a24195a08",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://republika.co.id/tag/dua-tahun-prabowo-gibran": {
-      "timestamp": 1793935487445,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Topic : dua-tahun-prabowo-gibran | Republika Online",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "19f9890fc6083a7c31514615cfd2b07430ecbb83ba4ab4be2e5558ec85f277d8",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://republika.co.id/page/jadwal_sholat/jakarta": {
-      "timestamp": 1793935491813,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Jadwal Shalat Hari Ini   06 November 2026 -  Jakarta dan Sekitarnya  | Republika Online",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "7ace659f7a6f02b812ab5e3128214b75d5f8eac32d7913e4929bd8feebaf5618",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    },
-    "https://ekonomi.republika.co.id/berita/to24rd423/indef-wantiwanti-lonjakan-harga-pangan-jelang-natal-dan-tahun-baru-2027": {
-      "timestamp": 1793935494893,
-      "status": "success",
-      "httpStatus": 200,
-      "title": "Indef Wanti-Wanti Lonjakan Harga Pangan Jelang Natal dan Tahun Baru 2027 | Republika Online",
-      "etag": null,
-      "lastModified": null,
-      "contentHash": "850eeebb1634a973d0d94bd9665085bd63aea2af2fd7f58750c661995a25128d",
-      "changeCount": 0,
-      "consecutiveErrors": 0
-    }
+ "urls": {
+  "https://www.kompas.com": {
+   "timestamp": 1793935438981,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "cc42804ffea94fd9f6d9411efddb30343c5bb17dc5a54761bb4ff2724f23bace",
+   "changeCount": 0,
+   "consecutiveErrors": 0
   },
-  "domains": {
-    "kompas.com": {
-      "failures": 0,
-      "blockedUntil": 0
-    },
-    "detik.com": {
-      "failures": 0,
-      "blockedUntil": 0
-    },
-    "antaranews.com": {
-      "failures": 0,
-      "blockedUntil": 0
-    },
-    "tempo.co": {
-      "failures": 1,
-      "blockedUntil": 0
-    },
-    "republika.co.id": {
-      "failures": 0,
-      "blockedUntil": 0
-    },
-    "lestari.kompas.com": {
-      "failures": 0,
-      "blockedUntil": 0
-    },
-    "news.detik.com": {
-      "failures": 0,
-      "blockedUntil": 0
-    },
-    "ekonomi.republika.co.id": {
-      "failures": 0,
-      "blockedUntil": 0
-    }
+  "https://www.detik.com": {
+   "timestamp": 1793935443012,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "5465054de16f26b4dc9af21db8d00f92dac3705d962f41710846289b43acfb20",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.antaranews.com": {
+   "timestamp": 1793935447337,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Berita terkini dan terpercaya Indonesia - ANTARA News",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "cad383fd2373162bc4b433c88ee1c7650d71ccc3256226247525a36fd205dbb0",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.tempo.co": {
+   "timestamp": 1793935452265,
+   "status": "error",
+   "message": "HTTP 403",
+   "consecutiveErrors": 1
+  },
+  "https://www.republika.co.id": {
+   "timestamp": 1793935456095,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Republika Online",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "ce0b62a9798a35fa6b2b2c5f377cc63b60dd5107c8a80286acf4706be957a883",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://lestari.kompas.com/tujuan/kehidupan-sehat-dan-sejahtera": {
+   "timestamp": 1793935460700,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Kehidupan Sehat dan Sejahtera - Lestari KG Media - Kompas.com",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "1f006fed8502405f62f081155c4975f5c1fa4ff19b64ccb2cee60cc409bf159e",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://lestari.kompas.com/tujuan/air-bersih-dan-sanitasi-layak": {
+   "timestamp": 1793935464591,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Air Bersih dan Sanitasi Layak - Lestari KG Media - Kompas.com",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "a69554921c95f09cd1e08018359da112533cf64e30392d74184d45bcf28494a4",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://lestari.kompas.com/tujuan/energi-bersih-dan-terjangkau": {
+   "timestamp": 1793935469115,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Energi Bersih dan Terjangkau - Lestari KG Media - Kompas.com",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "a8fb1ebf8de05876d42129024b91868825fafe702a42f36e2ab6e5e301c415fa",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://news.detik.com/berita/d-8740617/terjebak-karhutla-di-kalteng-2-orang-utan-fajar-dan-fitri-dievakuasi": {
+   "timestamp": 1793935471390,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Terjebak Karhutla di Kalteng, 2 Orang Utan Fajar dan Fitri Dievakuasi",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "0de724e845bfefe687a8825d6d188b3b08c289a8b4f82dfc1fff87a3b75bc962",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.detik.com/jabar/berita/d-8740365/penghormatan-terakhir-untuk-letkol-anwar-usai-gugur-padamkan-karhutla": {
+   "timestamp": 1793935475389,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Penghormatan Terakhir untuk Letkol Anwar Usai Gugur Padamkan Karhutla",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "6ac5d00b8f0658c45c2f0bcf3ee9ee4c1064838dfcf3e7c5ee58b192c5c8b8c5",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.detik.com/kalimantan/kalimantan-lestari/d-8740536/2-orang-utan-korban-karhutla-di-km-24-kobar-telah-dievakuasi": {
+   "timestamp": 1793935476649,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "2 Orang Utan Korban Karhutla di Km 24 Kobar Telah Dievakuasi",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "e415b92e88d02501b8fa41b25246725c5418d9a935cad11824f0cc6dff990d99",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.antaranews.com/berita/5835747/bgn-sebut-tak-ada-kewajiban-sppg-kurangi-jumlah-tenaga-relawan-mbg": {
+   "timestamp": 1793935480429,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "BGN sebut tak ada kewajiban SPPG kurangi jumlah tenaga relawan MBG - ANTARA News",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "ba098a16f213d1f838cbf8ec5bfbf586cb749b003207c96c93ba085696f44f73",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.antaranews.com/berita/5835739/pelajaran-besar-dari-kekalahan-telak-donald-trump-dan-partai-republik": {
+   "timestamp": 1793935481439,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Pelajaran besar dari kekalahan telak Donald Trump dan Partai Republik - ANTARA News",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "fc1bdf459627b57c7ceab5a3ce279b8dc6d4d15f3692464e89b01014b4740738",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://www.antaranews.com/berita/5835715/persib-punya-kans-besar-terus-melaju-minimal-perempat-final-acl-2": {
+   "timestamp": 1793935484254,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Persib punya kans besar terus melaju, minimal perempat final ACL 2 - ANTARA News",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "9dbf8acccbb04f636e9b7652a3045009dac498d492138cf97abde95a24195a08",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/tag/dua-tahun-prabowo-gibran": {
+   "timestamp": 1793935487445,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Topic : dua-tahun-prabowo-gibran | Republika Online",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "19f9890fc6083a7c31514615cfd2b07430ecbb83ba4ab4be2e5558ec85f277d8",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/page/jadwal_sholat/jakarta": {
+   "timestamp": 1793935491813,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Jadwal Shalat Hari Ini   06 November 2026 -  Jakarta dan Sekitarnya  | Republika Online",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "7ace659f7a6f02b812ab5e3128214b75d5f8eac32d7913e4929bd8feebaf5618",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://ekonomi.republika.co.id/berita/to24rd423/indef-wantiwanti-lonjakan-harga-pangan-jelang-natal-dan-tahun-baru-2027": {
+   "timestamp": 1793935494893,
+   "status": "success",
+   "httpStatus": 200,
+   "title": "Indef Wanti-Wanti Lonjakan Harga Pangan Jelang Natal dan Tahun Baru 2027 | Republika Online",
+   "etag": null,
+   "lastModified": null,
+   "contentHash": "850eeebb1634a973d0d94bd9665085bd63aea2af2fd7f58750c661995a25128d",
+   "changeCount": 0,
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/": {
+   "timestamp": 1793936173417,
+   "status": "success",
+   "contentHash": "ce0b62a9798a35fa",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/video": {
+   "timestamp": 1793936178599,
+   "status": "success",
+   "contentHash": "f0aac143e4b036a5",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/video/close-up": {
+   "timestamp": 1793936182810,
+   "status": "success",
+   "contentHash": "c04f1d59a6ea8bc5",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/103000565/dokter-anak-wanti-wanti-orangtua-hindari-campurkan-bawang-ke-mpasi": {
+   "timestamp": 1793936186415,
+   "status": "success",
+   "contentHash": "eb2355f15808c67e",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/video/podcast": {
+   "timestamp": 1793936187735,
+   "status": "success",
+   "contentHash": "162b485b5e4c72cf",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/06/100931271/brin-tegaskan-siap-bangun-pltn-pertama-indonesia-pada-2032": {
+   "timestamp": 1793936191102,
+   "status": "success",
+   "contentHash": "24723d26ccff5abe",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/video/videografis": {
+   "timestamp": 1793936191810,
+   "status": "success",
+   "contentHash": "13b971e6472cbb3a",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/06/100042671/fildza-lulus-s3-ugm-ipk-400-di-tengah-kesibukan-mengasuh-anak-dan-mengajar": {
+   "timestamp": 1793936195335,
+   "status": "success",
+   "contentHash": "2470406b749c5d8e",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/video/ficer": {
+   "timestamp": 1793936196466,
+   "status": "success",
+   "contentHash": "2f7c9bedbdcd918d",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/100000165/polis-asuransi-titanic-senilai-5-juta-dollar-ditemukan-setelah-114-tahun": {
+   "timestamp": 1793936199426,
+   "status": "success",
+   "contentHash": "39976ea8989c7d06",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pemilu-kita": {
+   "timestamp": 1793936201382,
+   "status": "success",
+   "contentHash": "90efc11c69959684",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/06/100000775/promo-alfamart-hari-ini-6-november-2026-susu-balita-harga-ekonomis-mulai-rp": {
+   "timestamp": 1793936204283,
+   "status": "success",
+   "contentHash": "12a9df340ab50417",
+   "consecutiveErrors": 0
+  },
+  "https://www.detik.com/properti/arsitektur/d-8740640/jendela-kamar-kos-menghadap-lorong-tertutup-ini-risiko-yang-mengintai": {
+   "timestamp": 1793936206787,
+   "status": "success",
+   "contentHash": "1618d09a22885d30",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pemilu-kita/anies-muhaimin": {
+   "timestamp": 1793936206458,
+   "status": "success",
+   "contentHash": "475bf048301269f0",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/06/093707766/sabet-piala-ami-awards-2026-lesti-kejora-persembahkan-untuk-rizky-billar": {
+   "timestamp": 1793936208687,
+   "status": "success",
+   "contentHash": "727e7ee7f482217d",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pemilu-kita/prabowo-gibran": {
+   "timestamp": 1793936211564,
+   "status": "success",
+   "contentHash": "f62267d94a0359e1",
+   "consecutiveErrors": 0
+  },
+  "https://www.detik.com/properti/arsitektur/d-8740376/no-beton-beton-club-swedia-rogoh-rp-22-triliun-bangun-kota-kayu-25-hektare": {
+   "timestamp": 1793936211281,
+   "status": "success",
+   "contentHash": "64eaeca9a420038e",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/06/093233671/persiapan-daftar-ppg-kemenag-2026-cek-kriteria-yang-diperlukan": {
+   "timestamp": 1793936213057,
+   "status": "success",
+   "contentHash": "a5f624a85990a17c",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pemilu-kita/ganjar-mahfud": {
+   "timestamp": 1793936215006,
+   "status": "success",
+   "contentHash": "14ab71d9ba137c3d",
+   "consecutiveErrors": 0
+  },
+  "https://www.detik.com/properti/arsitektur/d-8738908/asal-usul-penthouse-dulu-kamar-pembantu-kini-jadi-rumah-orang-tajir": {
+   "timestamp": 1793936215946,
+   "status": "success",
+   "contentHash": "2c5cfab9ab7ef737",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/093000465/tak-perlu-data-manusia-ai-bisa-latih-dirinya-sendiri-jadi-makin-pintar": {
+   "timestamp": 1793936218322,
+   "status": "success",
+   "contentHash": "994aec17ad959e96",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pemilu-kita/kabar-pemilu": {
+   "timestamp": 1793936219817,
+   "status": "success",
+   "contentHash": "e873a69d12b267b4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/06/093000575/kisah-ibu-ibu-di-dieng-olah-carica-produksi-capai-100-kg-per-minggu": {
+   "timestamp": 1793936222186,
+   "status": "success",
+   "contentHash": "852cffc8cad8b9c2",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pemilu-kita/colek-caleg": {
+   "timestamp": 1793936223883,
+   "status": "success",
+   "contentHash": "c504a8ebe63e9514",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/06/090912566/aktor-thailand-blue-pongtiwat-tanggapi-rumor-pacaran-dengan-lisa": {
+   "timestamp": 1793936227240,
+   "status": "success",
+   "contentHash": "7d617dec63daacc5",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/06/090743775/promo-superindo-hari-ini-6-november-2026-minyak-goreng-harga-hemat-mulai-rp": {
+   "timestamp": 1793936232167,
+   "status": "success",
+   "contentHash": "d8f021a36d158c4b",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/iqra": {
+   "timestamp": 1793936228041,
+   "status": "success",
+   "contentHash": "fc015c7e5764cfd8",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/06/090700371/perbandingan-peringkat-universitas-indonesia-dan-malaysia-di-qs-aur-2027-": {
+   "timestamp": 1793936232236,
+   "status": "success",
+   "contentHash": "20dd5769b9eae476",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/iqra/kajian-alquran": {
+   "timestamp": 1793936232421,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/iqra/doa": {
+   "timestamp": 1793936237034,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/090000465/irjen-slamet-uliandi-jadi-tersangka-keempat-kasus-penyadapan-prabowo-ini": {
+   "timestamp": 1793936236548,
+   "status": "success",
+   "contentHash": "a267b8c2a404b3ce",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/iqra/hadist": {
+   "timestamp": 1793936241284,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/06/084323871/mendikdasmen-ungkap-alasan-penjurusan-ipa-ips-bahasa-di-sma-diadakan-lagi": {
+   "timestamp": 1793936241478,
+   "status": "success",
+   "contentHash": "cf69f839fc45bd6c",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/iqra/khutbah-jumat": {
+   "timestamp": 1793936245376,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/083000765/pesawat-tujuan-bangkok-terpaksa-putar-balik-karena-kaca-kokpit-retak": {
+   "timestamp": 1793936246311,
+   "status": "success",
+   "contentHash": "dc4fa6aa69585587",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news": {
+   "timestamp": 1793936250008,
+   "status": "success",
+   "contentHash": "b86bf5158c3d49aa",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/06/083000875/promo-kuliner-november-ayce-dimsum-hingga-bbq-di-ibis-styles-bekasi": {
+   "timestamp": 1793936250423,
+   "status": "success",
+   "contentHash": "23878d060cb7afed",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/politik": {
+   "timestamp": 1793936254568,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/06/083000475/promo-indomaret-hari-ini-6-november-2026-frozen-food-diskon-hingga-50": {
+   "timestamp": 1793936255204,
+   "status": "success",
+   "contentHash": "8e7e82629fb23640",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/hukum": {
+   "timestamp": 1793936259669,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/080000465/harga-bbm-malaysia-turun-lagi-ini-daftar-terbaru-ron97-hingga-diesel": {
+   "timestamp": 1793936260004,
+   "status": "success",
+   "contentHash": "bc0905374eb32b37",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/06/073956066/dihujat-telat-datang-ria-ricis-tunjukkan-langit-kalimantan-masih": {
+   "timestamp": 1793936264428,
+   "status": "success",
+   "contentHash": "7ae4094e1a9dddfe",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/073000465/google-akan-nonaktifkan-fitur-ai-secara-default-pada-akun-pelajar-sd-hingga": {
+   "timestamp": 1793936264510,
+   "status": "success",
+   "contentHash": "69ec9d61d4bd798d",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/pendidikan": {
+   "timestamp": 1793936264046,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/umum": {
+   "timestamp": 1793936269217,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/06/073000175/resep-rendang-telur-olahan-telur-dengan-bumbu-khas-padang": {
+   "timestamp": 1793936269060,
+   "status": "success",
+   "contentHash": "fcc8b7f02cfdd1b0",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/news-analysis": {
+   "timestamp": 1793936273769,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/070000965/hiu-atau-pohon-mana-yang-lebih-dulu-menghuni-bumi-": {
+   "timestamp": 1793936274117,
+   "status": "success",
+   "contentHash": "acaa78e94156c499",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/universitas-muhammadiyah-malang": {
+   "timestamp": 1793936277756,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/06/064111466/bedah-trailer-desember-jani-dinamika-komunikasi-ibu-dan-anak-perempuannya": {
+   "timestamp": 1793936279380,
+   "status": "success",
+   "contentHash": "f06cda88acebc07d",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/bina-sarana-informatika": {
+   "timestamp": 1793936281923,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/063000565/apa-dampak-kemenangan-demokrat-dalam-pemilu-sela-as-bagi-perang-iran-": {
+   "timestamp": 1793936282614,
+   "status": "success",
+   "contentHash": "a0e28e2a301b5feb",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/telko-highlight": {
+   "timestamp": 1793936286248,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/060000165/bank-digital-kolaps-presiden-paraguay-santiago-pena-mengundurkan-diri": {
+   "timestamp": 1793936287326,
+   "status": "success",
+   "contentHash": "253f6f66275b8ce0",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/indonesia-berdaya": {
+   "timestamp": 1793936290283,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/06/053000865/-populer-tren-arah-politik-trump-selepas-kalah-di-pemilu-sela-kekayaan-dan": {
+   "timestamp": 1793936292248,
+   "status": "success",
+   "contentHash": "2b79ac36f8c6f1b2",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/cek-viral": {
+   "timestamp": 1793936294834,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/220000265/dari-isu-medsos-hingga-ditampilkan-di-sidang-ini-kronologi-polemik-ijazah": {
+   "timestamp": 1793936298207,
+   "status": "success",
+   "contentHash": "f83f76919fe35ece",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/news/news-story": {
+   "timestamp": 1793936299367,
+   "status": "success",
+   "contentHash": "85ec9ec2f389f881",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/213000465/penyadapan-tanpa-izin--hasil-rekaman-gugur-pelaku-terancam-sanksi-berat": {
+   "timestamp": 1793936301802,
+   "status": "success",
+   "contentHash": "b2205b53290bb5df",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah": {
+   "timestamp": 1793936303589,
+   "status": "success",
+   "contentHash": "d56095621df71cae",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/211910166/raih-piala-ami-awards-2026-bernadya-berdarah-darah": {
+   "timestamp": 1793936305924,
+   "status": "success",
+   "contentHash": "925997b797d0436b",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/jabodetabek-nasional": {
+   "timestamp": 1793936307741,
+   "status": "success",
+   "contentHash": "874f45337f118a9f",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/210000965/bisakah-putusan-pidana-batalkan-status-presiden-ini-penjelasan-pakar-hukum": {
+   "timestamp": 1793936311006,
+   "status": "success",
+   "contentHash": "a24de4a45582956e",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/banten": {
+   "timestamp": 1793936312453,
+   "status": "success",
+   "contentHash": "ccb9ee590346983e",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/210000766/duet-bareng-andrea-bocelli-di-jakarta-lea-simanjuntak--ngeri-ngeri-sedap-ya": {
+   "timestamp": 1793936314578,
+   "status": "success",
+   "contentHash": "e6e43eb641b2afeb",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/jawa-barat": {
+   "timestamp": 1793936317196,
+   "status": "success",
+   "contentHash": "a9a1633f0b7f21d7",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/203000765/bps--kerja-1-jam-seminggu-sudah-masuk-kategori-bekerja": {
+   "timestamp": 1793936318748,
+   "status": "success",
+   "contentHash": "72da8fc39431fa35",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/200708266/lulus-s2-manajemen-transportasi-ini-judul-tesis-faank-wali-band": {
+   "timestamp": 1793936322476,
+   "status": "success",
+   "contentHash": "59cfed221355ce08",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/jawa-tengah-diy": {
+   "timestamp": 1793936322060,
+   "status": "success",
+   "contentHash": "5cde936b31fc73ee",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/200000265/gegara-uang-kembalian-rp-1.900-kondektur-wanita-tewas-didorong-keluar-bus": {
+   "timestamp": 1793936323834,
+   "status": "success",
+   "contentHash": "95b766ea99204fbd",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/jawa-timur": {
+   "timestamp": 1793936326130,
+   "status": "success",
+   "contentHash": "0587a68fe50b35d1",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/193000565/makanan-membusuk-dan-bank-darah-terancam-peretas-incar-freezer-eropa": {
+   "timestamp": 1793936327738,
+   "status": "success",
+   "contentHash": "3b936a168f662738",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/kalimantan": {
+   "timestamp": 1793936330836,
+   "status": "success",
+   "contentHash": "56df43ba304da316",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/192806575/4-cara-ampuh-bersihkan-jeroan-agar-tidak-bau-tips-dari-chef": {
+   "timestamp": 1793936332174,
+   "status": "success",
+   "contentHash": "d00d7e506bf03d62",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/sulawesi": {
+   "timestamp": 1793936335372,
+   "status": "success",
+   "contentHash": "40f0c1167c4a5837",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/192555971/kemendikti-beri-beasiswa-bantuan-biaya-bagi-dosen-yang-kuliah-s3-di-dalam": {
+   "timestamp": 1793936336954,
+   "status": "success",
+   "contentHash": "60fe09b54b9a12b4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/sumatra": {
+   "timestamp": 1793936339351,
+   "status": "success",
+   "contentHash": "1f3a094262b4e0d7",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/190000665/tolak-taruh-nanas-di-piza-chef-italia-di-australia-dipecat": {
+   "timestamp": 1793936340955,
+   "status": "success",
+   "contentHash": "935c3cf2a258e5d8",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/184109066/simbol-tiga-jari-dari-the-hunger-games-hingga-aksi-para-musisi": {
+   "timestamp": 1793936345805,
+   "status": "success",
+   "contentHash": "04974f85cadec97c",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/bali-nusa-tenggara": {
+   "timestamp": 1793936343446,
+   "status": "success",
+   "contentHash": "fae87b838efa1b84",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/183000365/polemik-penyadapan-presiden-akankah-bintang-mahaputera-listyo-sigit-dicabut": {
+   "timestamp": 1793936347048,
+   "status": "success",
+   "contentHash": "e4a94d6ae45ee3f0",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/daerah/papua-maluku": {
+   "timestamp": 1793936347742,
+   "status": "success",
+   "contentHash": "d7fa1710f3b2eda6",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/180739266/ada-pasar-nassar-dan-penassarun-jelang-konser-king-nassar-lost-in-the": {
+   "timestamp": 1793936349687,
+   "status": "success",
+   "contentHash": "468b3c310e314dcc",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam": {
+   "timestamp": 1793936352487,
+   "status": "success",
+   "contentHash": "790bd818a164371c",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/180000865/hanya-2-kata-catatan-pilot-tahun-1945-bongkar-misteri-dahsyatnya-bom": {
+   "timestamp": 1793936354703,
+   "status": "success",
+   "contentHash": "11417c496734a914",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/islam-nusantara": {
+   "timestamp": 1793936356807,
+   "status": "success",
+   "contentHash": "a90163e9a8653a44",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/175955771/universitas-brawijaya-buka-lowongan-dosen-2026-tersedia-168-formasi-hingga": {
+   "timestamp": 1793936358772,
+   "status": "success",
+   "contentHash": "173e424c37fb308a",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/dunia": {
+   "timestamp": 1793936361314,
+   "status": "success",
+   "contentHash": "347679007a10e3f5",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/175048666/luna-maya-ungkap-alasan-mau-jadi-eksekutif-produser-desember-jani": {
+   "timestamp": 1793936363505,
+   "status": "success",
+   "contentHash": "c98d9ed8d281bc4d",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/wakaf": {
+   "timestamp": 1793936365923,
+   "status": "success",
+   "contentHash": "20d748100ea2ac35",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/173822066/raim-laode-ungkap-makna-lagu-iqro-tentang-perjalanan-menjadi-dewasa": {
+   "timestamp": 1793936367591,
+   "status": "success",
+   "contentHash": "2a74cb01cf9626a1",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/hikmah": {
+   "timestamp": 1793936370144,
+   "status": "success",
+   "contentHash": "163914e9b4202659",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/173000365/kapan-penyadapan-telepon-dilakukan-secara-sah-dan-legal-ini-penjelasan": {
+   "timestamp": 1793936372262,
+   "status": "success",
+   "contentHash": "d9e13f32c8105da7",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/mualaf": {
+   "timestamp": 1793936374337,
+   "status": "success",
+   "contentHash": "66046446dd658e61",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/172249566/9-tahun-menanti-fanny-ghassani-umumkan-kehamilan-anak-pertama": {
+   "timestamp": 1793936375968,
+   "status": "success",
+   "contentHash": "411e54fc169fa40a",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/rumah-zakat": {
+   "timestamp": 1793936378504,
+   "status": "success",
+   "contentHash": "e748c007e562121e",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/170629666/agensi-mendadak-umumkan-jadwal-wajib-militer-lee-know-stray-kids": {
+   "timestamp": 1793936380746,
+   "status": "success",
+   "contentHash": "fa920684c11ec238",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/dunia-islam/sang-pencerah": {
+   "timestamp": 1793936383025,
+   "status": "success",
+   "contentHash": "56faa72d856e7f25",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/170130171/kemendikdasmen-pelanggaran-berat-tka-sma-2026-paling-banyak-dilakukan-siswa": {
+   "timestamp": 1793936385221,
+   "status": "success",
+   "contentHash": "0562618df29e1ac1",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest": {
+   "timestamp": 1793936387376,
+   "status": "success",
+   "contentHash": "d823251f99c5d33e",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/170000465/sidang-tudingan-ijazah-palsu-jokowi-ungkap-soal-jurusannya-di-ugm": {
+   "timestamp": 1793936389244,
+   "status": "success",
+   "contentHash": "8463163f33fb53c4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/nabi-muhammad": {
+   "timestamp": 1793936391536,
+   "status": "success",
+   "contentHash": "75605034a9a5f577",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/164806071/mulai-2027-pemerintah-adakan-lagi-penjurusan-ipa-ips-bahasa-di-sma": {
+   "timestamp": 1793936393402,
+   "status": "success",
+   "contentHash": "7043645a8bce400e",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/muslimah": {
+   "timestamp": 1793936396114,
+   "status": "success",
+   "contentHash": "94e24db247d3b213",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/163556571/raih-ipk-400-saat-lulus-dokter-spesialis-ugm-nadia-kembali-ke-wonosobo-untuk": {
+   "timestamp": 1793936397366,
+   "status": "success",
+   "contentHash": "a54fea459dc670cb",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/kisah": {
+   "timestamp": 1793936400900,
+   "status": "success",
+   "contentHash": "7dc691b04c121abf",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/163000465/bsu-rp-900000-segera-cair-ini-5-syarat-untuk-mendapatkannya": {
+   "timestamp": 1793936402257,
+   "status": "success",
+   "contentHash": "79231103725d3d17",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/fatwa": {
+   "timestamp": 1793936405065,
+   "status": "success",
+   "contentHash": "14ca34b4d2a630eb",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/162827071/kisah-pasutri-idris-dan-wahyuni-kuliah-hingga-wisuda-s1-bersama-rela-daki": {
+   "timestamp": 1793936407662,
+   "status": "success",
+   "contentHash": "0ead2081d8c0b6f2",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/mozaik": {
+   "timestamp": 1793936409314,
+   "status": "success",
+   "contentHash": "8cbff1385b9e7fb0",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/160100065/jokowi-ungkap-sudah-6-kali-tunjukkan-ijazah-sejak-lulus-ugm": {
+   "timestamp": 1793936410927,
+   "status": "success",
+   "contentHash": "c4ff8a3a9e120736",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/kajian-alquran": {
+   "timestamp": 1793936413625,
+   "status": "success",
+   "contentHash": "8a9c9bcae2bff3c4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/160000775/baking-soda-bisa-bantu-kurangi-residu-pestisida-pada-buah-dan-sayur-ini": {
+   "timestamp": 1793936417008,
+   "status": "success",
+   "contentHash": "ce91ca7d2f45f939",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/153110166/dulu-banyak-uang-tapi-tak-bisa-beli-rumah-suami-enno-lerian-menyesal": {
+   "timestamp": 1793936419800,
+   "status": "success",
+   "contentHash": "952cf742bb1ac363",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/doa": {
+   "timestamp": 1793936418439,
+   "status": "success",
+   "contentHash": "81cca51d559828a1",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/153000965/bandingkan-diri-dengan-napoleon-trump-kini-bawa-kehancuran-untuk-dirinya": {
+   "timestamp": 1793936421287,
+   "status": "success",
+   "contentHash": "767651373b6015fd",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/islam-digest/hadist": {
+   "timestamp": 1793936423307,
+   "status": "success",
+   "contentHash": "5ab61f9bc033803a",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/151226471/mau-kuliah-di-china-bagusnya-di-kampus-mana-berdasarkan-qs-aur-2027": {
+   "timestamp": 1793936424298,
+   "status": "success",
+   "contentHash": "6a70147df5caa7c1",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional": {
+   "timestamp": 1793936427849,
+   "status": "success",
+   "contentHash": "2872d891cbb3eda1",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/150000965/pelari-meninggal-di-new-york-city-marathon-risiko-kematian-lari-jarak-jauh": {
+   "timestamp": 1793936428030,
+   "status": "success",
+   "contentHash": "7aa1088076864f23",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/timur-tengah": {
+   "timestamp": 1793936432631,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/145407471/hari-guru-nasional-2026-tanggal-berapa-apakah-libur-sekolah": {
+   "timestamp": 1793936433016,
+   "status": "success",
+   "contentHash": "44bc7fa2c5e0debd",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/palestina-israel": {
+   "timestamp": 1793936436847,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/144249166/berkat-astaga-bercanda-mingse-dan-akbar-untuk-pertama-kalinya-bawa-pulang": {
+   "timestamp": 1793936438088,
+   "status": "success",
+   "contentHash": "b15dda9a978619bd",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/eropa": {
+   "timestamp": 1793936441196,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/143320466/idgitaf-angkat-isu-longsor-dan-kebakaran-hutan-singgung-pentingnya": {
+   "timestamp": 1793936442479,
+   "status": "success",
+   "contentHash": "1e9d4f44249edb66",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/amerika": {
+   "timestamp": 1793936445404,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/143000865/bukan-cuma-inflasi-ini-5-biang-keladi-hancurnya-republik-di-pemilu-sela-as": {
+   "timestamp": 1793936446685,
+   "status": "success",
+   "contentHash": "bdf0ea33f7f9d95f",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/asia": {
+   "timestamp": 1793936450186,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/140000865/bmkg-peringatkan-26-wilayah-berpotensi-hujan-lebat-besok-jumat-6-november": {
+   "timestamp": 1793936451431,
+   "status": "success",
+   "contentHash": "b2ec2ac1d1665ce1",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/afrika": {
+   "timestamp": 1793936454396,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/133244871/cek-7-ptn-yang-tawarkan-seleksi-masuk-ketua-osis-dan-pramuka": {
+   "timestamp": 1793936455004,
+   "status": "success",
+   "contentHash": "d17c015e13396067",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/selarung-waktu": {
+   "timestamp": 1793936459066,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/133000665/momen-jokowi-disumpah-di-bawah-al-qur-an-dalam-sidang-tudingan-ijazah-palsu": {
+   "timestamp": 1793936459246,
+   "status": "success",
+   "contentHash": "f8045e5e73d179ef",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/130223466/hampir-setahun-gary-iskak-meninggal-dunia-richa-novisha-ungkap-cara": {
+   "timestamp": 1793936463920,
+   "status": "success",
+   "contentHash": "85416be7585ea3b7",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/abc-australia-network": {
+   "timestamp": 1793936463811,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/130000465/bpjs-kesehatan-pbi-nonaktif-jangan-panik-ini-cara-aktifkan-kembali-dan": {
+   "timestamp": 1793936465220,
+   "status": "success",
+   "contentHash": "f50e34dc639f995c",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/internasional/deutsche-welle": {
+   "timestamp": 1793936468044,
+   "status": "success",
+   "contentHash": "66fa5c5923dde1c2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/130000775/4-cara-menyimpan-makanan-panas-dengan-aman-di-kulkas-perhatikan-hal-ini": {
+   "timestamp": 1793936468622,
+   "status": "success",
+   "contentHash": "42aedf81042da905",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi": {
+   "timestamp": 1793936472114,
+   "status": "success",
+   "contentHash": "d0331e70c13eb85a",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/124038966/tulus-borong-5-piala-ami-awards-2026": {
+   "timestamp": 1793936473650,
+   "status": "success",
+   "contentHash": "9d7dfffbf0be6c7e",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/123222666/musisi-bersuara-di-panggung-kemenangan-ami-awards": {
+   "timestamp": 1793936478176,
+   "status": "success",
+   "contentHash": "43db859d9daa104c",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/fintech": {
+   "timestamp": 1793936476265,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/123000565/kesal-anak-belum-bisa-membaca-ayah-tembakkan-pistol-di-sekolah-thailand": {
+   "timestamp": 1793936478248,
+   "status": "success",
+   "contentHash": "d55f43105cbac847",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/syariah-ekonomi": {
+   "timestamp": 1793936480396,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/120134675/jahe-hingga-bawang-putih-bahan-dapur-ini-bisa-diracik-jadi-herbal-anak": {
+   "timestamp": 1793936482603,
+   "status": "success",
+   "contentHash": "b0e5420a7829c474",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/korporasi": {
+   "timestamp": 1793936484569,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/120000065/ka-pandawa-jogja-semarang-diluncurkan-1-desember-2026-cek-harga-tiket-dan": {
+   "timestamp": 1793936487479,
+   "status": "success",
+   "contentHash": "8be5c7f91f6183f8",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/keuangan": {
+   "timestamp": 1793936488631,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/115504066/hal-yang-perlu-diketahui-sebelum-nonton-godzilla-minus-zero": {
+   "timestamp": 1793936491562,
+   "status": "success",
+   "contentHash": "071124e23112a725",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/migas": {
+   "timestamp": 1793936493449,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/115000071/pengawas-tka-sma-2026-diminta-lebih-peka-terhadap-indikasi-kecurangan": {
+   "timestamp": 1793936497479,
+   "status": "success",
+   "contentHash": "88a7570b89613d08",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/pertanian": {
+   "timestamp": 1793936497924,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/114101471/30-kampus-terbaik-di-indonesia-versi-qs-asia-university-ranking-2027": {
+   "timestamp": 1793936501043,
+   "status": "success",
+   "contentHash": "346cf519591f5c63",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/bisnis-global": {
+   "timestamp": 1793936502644,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/113000165/media-asing-soroti-pengerahan-20.980-personel-tni-ke-jakarta-di-tengah": {
+   "timestamp": 1793936504716,
+   "status": "success",
+   "contentHash": "407679cdd2648bb9",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ekonomi/energi": {
+   "timestamp": 1793936506782,
+   "status": "success",
+   "contentHash": "a369ee623285edb4",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/111853866/kini-ada-anak-amanda-manopo-sempatkan-jalan-jalan-berdua-kenny-austin": {
+   "timestamp": 1793936508853,
+   "status": "success",
+   "contentHash": "0c050ed4593d6cbb",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola": {
+   "timestamp": 1793936510937,
+   "status": "success",
+   "contentHash": "2fb4d2cd0a48b4e1",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/110000665/5-sarapan-yang-dapat-mendukung-fungsi-otak-apa-saja-": {
+   "timestamp": 1793936514653,
+   "status": "success",
+   "contentHash": "9301c11b947b01d2",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/liga-indonesia": {
+   "timestamp": 1793936515159,
+   "status": "success",
+   "contentHash": "582d9fdb763fdfc6",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/103000065/bank-darah-perancis-diretas-suhu-penyimpanan-dinaikkan-untuk-merusak-stok": {
+   "timestamp": 1793936517639,
+   "status": "success",
+   "contentHash": "5398f0e60faeac4a",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/liga-inggris": {
+   "timestamp": 1793936519784,
+   "status": "success",
+   "contentHash": "d33bcf6ebeb3261c",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/102829866/sebulan-jelang-rilis-avengers-doomsday-robert-downey-jr-kenalkan-aktor": {
+   "timestamp": 1793936522467,
+   "status": "success",
+   "contentHash": "f0dc181083a1a2c4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/liga-spanyol": {
+   "timestamp": 1793936524177,
+   "status": "success",
+   "contentHash": "9fd0ff76b5dec1e8",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/101632766/konser-bts-arirang-hadir-di-cgv-tiket-mulai-rp-450000": {
+   "timestamp": 1793936527125,
+   "status": "success",
+   "contentHash": "c22814d4d917c094",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/liga-italia": {
+   "timestamp": 1793936528694,
+   "status": "success",
+   "contentHash": "a0791682c214cb57",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/101500875/promo-superindo-hari-ini-5-november-2026-telur-ekonomis-mulai-rp-25.000-an": {
+   "timestamp": 1793936530805,
+   "status": "success",
+   "contentHash": "6956a0aabbc171e6",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/liga-dunia": {
+   "timestamp": 1793936533351,
+   "status": "success",
+   "contentHash": "ccd5a03e229c54c0",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/100538566/pertama-kalinya-perunggu-bawa-pulang-piala-ami-awards-2026": {
+   "timestamp": 1793936535588,
+   "status": "success",
+   "contentHash": "78df9a76c82286fb",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/internasional-2": {
+   "timestamp": 1793936537788,
+   "status": "success",
+   "contentHash": "f1bc80c89024fb49",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/100000865/pengeluaran-beli-rokok-lebih-banyak-daripada-telur-pakar-ugm-ingatkan-masa": {
+   "timestamp": 1793936541090,
+   "status": "success",
+   "contentHash": "7c963aa13578c62b",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/freekick": {
+   "timestamp": 1793936542543,
+   "status": "success",
+   "contentHash": "0ba750913d61e360",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/094500165/nasib-listyo-sigit-kini-jadi-tersangka-penyadapan-prabowo-dan-dicopot-dari": {
+   "timestamp": 1793936544552,
+   "status": "success",
+   "contentHash": "a82baf324879a21d",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/arena-olahraga": {
+   "timestamp": 1793936546564,
+   "status": "success",
+   "contentHash": "dac22eb38e59af6b",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/094000671/dana-kjp-plus-tahap-ii-tahun-2026-gelombang-ii-cair-cek-besarannya": {
+   "timestamp": 1793936549156,
+   "status": "success",
+   "contentHash": "1fabe53afb31e814",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/sepakbola/sea-games": {
+   "timestamp": 1793936551293,
+   "status": "success",
+   "contentHash": "dd1ae89fb7da0d0c",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/093000365/tarif-listrik-tidak-naik-pln-ungkap-penyebab-tagihan-membengkak-dan-token": {
+   "timestamp": 1793936553676,
+   "status": "success",
+   "contentHash": "46979c0a8e1667b9",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pon-2021": {
+   "timestamp": 1793936555699,
+   "status": "success",
+   "contentHash": "d2e001f9d39125d3",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/092437571/fenomena-cancel-culture-pada-figur-publik-dosen-umy-bukan-omong-kosong-bisa": {
+   "timestamp": 1793936557386,
+   "status": "success",
+   "contentHash": "a2cdf95baa89b82e",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pon-2021/news-pon-2021": {
+   "timestamp": 1793936560003,
+   "status": "success",
+   "contentHash": "6cd890b6182cc5f3",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/091730775/promo-alfamart-hari-ini-5-november-2026-frozen-food-harga-hemat-mulai-rp": {
+   "timestamp": 1793936563059,
+   "status": "success",
+   "contentHash": "891622282b4ff647",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pon-2021/serba-serbi-pon-2021": {
+   "timestamp": 1793936564715,
+   "status": "success",
+   "contentHash": "25fd96798534a352",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/091500871/7-jurusan-ugm-dengan-ukt-termurah-acuan-daftar-snbp-snbt-2027": {
+   "timestamp": 1793936566120,
+   "status": "success",
+   "contentHash": "9cf6d0cae6444df4",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/090552166/daftar-lengkap-pemenang-ami-awards-2026": {
+   "timestamp": 1793936572301,
+   "status": "success",
+   "contentHash": "c7137f43ba44e9aa",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pon-2021/bintang-lapangan-2021": {
+   "timestamp": 1793936569406,
+   "status": "success",
+   "contentHash": "1b6c9e332e0698ab",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/090000765/apa-arti-kekalahan-trump-dalam-pemilu-sela-bagi-masa-depan-politik-as-": {
+   "timestamp": 1793936572414,
+   "status": "success",
+   "contentHash": "3a4fe3973bb24196",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pon-2021/lensa-pon-2021": {
+   "timestamp": 1793936573849,
+   "status": "success",
+   "contentHash": "48ecf814f6f00633",
+   "consecutiveErrors": 0
+  },
+  "https://edukasi.kompas.com/read/2026/11/05/085500771/ada-308-pelanggaran-tka-sma-2026-sebagian-dilakukan-siswa": {
+   "timestamp": 1793936575169,
+   "status": "success",
+   "contentHash": "b3e06d58f1ac92bd",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/edu/read/2026/11/05/084420771/dana-kjmu-tahap-ii-tahun-2026-cair-mahasiswa-bisa-dapat-rp-9-juta": {
+   "timestamp": 1793936581139,
+   "status": "success",
+   "contentHash": "3cb2df16c46ff50a",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/083329766/kata-cinta-laura-soal-adegan-intim-di-serial-sleeping-with-the-enemy": {
+   "timestamp": 1793936581912,
+   "status": "success",
+   "contentHash": "958898eec6cb95b5",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/pon-2021/video-pon-2021": {
+   "timestamp": 1793936578837,
+   "status": "success",
+   "contentHash": "abffa79a58d47cc2",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/083000265/trump-terpukul-dalam-pemilu-sela-as-apa-dampaknya-bagi-iran-israel-dan": {
+   "timestamp": 1793936582818,
+   "status": "success",
+   "contentHash": "57c2de9a34bd49c4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure": {
+   "timestamp": 1793936583177,
+   "status": "success",
+   "contentHash": "e22325d5b09ef9ed",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/082706766/atiqah-hasiholan-latihan-dialek-aceh-selama-2-bulan-untuk-film-pasukan-1000": {
+   "timestamp": 1793936586258,
+   "status": "success",
+   "contentHash": "d9f9e00f61c730d4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/gaya-hidup": {
+   "timestamp": 1793936587985,
+   "status": "success",
+   "contentHash": "698e6f994f2e90de",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/05/081643966/apakah-kostum-nanas-legendaris-king-nassar-dimunculkan-di-konser-lost-in": {
+   "timestamp": 1793936590512,
+   "status": "success",
+   "contentHash": "609a1b4a41860f37",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/travelling": {
+   "timestamp": 1793936592627,
+   "status": "success",
+   "contentHash": "086a92e41b94a4ba",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/081500875/jangan-sampai-keliru-ini-bedanya-daging-kambing-dan-domba": {
+   "timestamp": 1793936595231,
+   "status": "success",
+   "contentHash": "1f69019ae8d87b10",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/kuliner": {
+   "timestamp": 1793936596883,
+   "status": "success",
+   "contentHash": "407bc5a9b1fd9cea",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/food/read/2026/11/05/081500375/promo-kjsm-indomaret-hari-ini-5-november-2026-sunco-2l-harga-hemat-mulai-rp": {
+   "timestamp": 1793936599439,
+   "status": "success",
+   "contentHash": "fc8e56b5503a4c59",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/parenting": {
+   "timestamp": 1793936601414,
+   "status": "success",
+   "contentHash": "52c04f6751670c29",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/080100765/singapura-larang-warga-mengorek-tempat-sampah-untuk-ambil-botol-bekas": {
+   "timestamp": 1793936603601,
+   "status": "success",
+   "contentHash": "b97afbd131bcb0a4",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/info-sehat": {
+   "timestamp": 1793936605679,
+   "status": "success",
+   "contentHash": "322ec0495719a960",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/073000865/trump-salahkan-fox-news-atas-kekalahan-partai-republik-dalam-pemilu-sela-as": {
+   "timestamp": 1793936608579,
+   "status": "success",
+   "contentHash": "e5115684c5fff55c",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/070729466/vokal-soal-kondisi-indonesia-kunto-aji-musisi-punya-tanggung-jawab": {
+   "timestamp": 1793936613662,
+   "status": "success",
+   "contentHash": "a670ba4e7a11e3bc",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/senggang": {
+   "timestamp": 1793936610300,
+   "status": "success",
+   "contentHash": "6cbaec5d020b87fd",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/070000665/demokrat-menang-pemilu-sela-as-kekayaan-dan-saham-donald-trump-merosot": {
+   "timestamp": 1793936614936,
+   "status": "success",
+   "contentHash": "8432380c71039feb",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/oto-tek": {
+   "timestamp": 1793936614979,
+   "status": "success",
+   "contentHash": "628096b291f52747",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/063000865/rutin-menaburkan-baking-soda-ke-kasur-simak-manfaatnya": {
+   "timestamp": 1793936618394,
+   "status": "success",
+   "contentHash": "bc05ee96e3ba9ecb",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/05/062912166/vokalis-dmasiv-ungkap-alasan-tinggalkan-rans-entertainment-sebagai": {
+   "timestamp": 1793936623171,
+   "status": "success",
+   "contentHash": "fc5d07289af46ad1",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/republikopi": {
+   "timestamp": 1793936619521,
+   "status": "success",
+   "contentHash": "98c41dd4e78303e8",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/060100865/pakar-jelaskan-kapan-penyadapan-bisa-dianggap-ilegal-dan-dipidana": {
+   "timestamp": 1793936623238,
+   "status": "success",
+   "contentHash": "5a0f16f132ecacf1",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/leisure/tips": {
+   "timestamp": 1793936624253,
+   "status": "success",
+   "contentHash": "776d8c9f92905788",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/054500565/mengenang-ida-tarbell": {
+   "timestamp": 1793936627865,
+   "status": "success",
+   "contentHash": "eac6a301d1095df9",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/kolom": {
+   "timestamp": 1793936628374,
+   "status": "success",
+   "contentHash": "194ae380e2e91e1e",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/05/053000565/-populer-tren-daftar-pihak-yang-disadap-listyo-sigit-tujuan-3-jenderal": {
+   "timestamp": 1793936632237,
+   "status": "success",
+   "contentHash": "b612761b112b2b24",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/kolom/resonansi": {
+   "timestamp": 1793936632872,
+   "status": "success",
+   "contentHash": "4be670748eff4a56",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/04/232706966/menang-ami-awards-baskara-putra-dan-dipha-barus-acungkan-tiga-jari": {
+   "timestamp": 1793936636791,
+   "status": "success",
+   "contentHash": "84cba0224069993b",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/kolom/wacana": {
+   "timestamp": 1793936637099,
+   "status": "success",
+   "contentHash": "e56a81431fa73164",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/kolom/fokus": {
+   "timestamp": 1793936641730,
+   "status": "success",
+   "contentHash": "ac0f2c9ac8e181b1",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/04/230131466/alasan-cinta-laura-tertarik-main-serial-sleeping-with-the-enemy": {
+   "timestamp": 1793936641605,
+   "status": "success",
+   "contentHash": "5647c625b1c88721",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/kolom/selarung": {
+   "timestamp": 1793936645810,
+   "status": "success",
+   "contentHash": "7e3f9e82e5e2b552",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/04/223100665/dokter-spesialis-ungkap-gejala-perimenopause-dan-cara-meredam-dampaknya": {
+   "timestamp": 1793936646077,
+   "status": "success",
+   "contentHash": "20f5b3e01b1c83da",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/kolom/kalam": {
+   "timestamp": 1793936650727,
+   "status": "success",
+   "contentHash": "e8dc10d4334343fb",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/04/222921766/amanda-manopo-bantah-isu-bakal-pensiun-dari-industri-hiburan": {
+   "timestamp": 1793936651531,
+   "status": "success",
+   "contentHash": "7f3b494e827a0351",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/infografis": {
+   "timestamp": 1793936655070,
+   "status": "success",
+   "contentHash": "f4c32210438949d0",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/04/222731866/lesti-kejora-sabet-piala-ami-2026-jadi-penyemangat-untuk-terus-berkarya": {
+   "timestamp": 1793936655145,
+   "status": "success",
+   "contentHash": "70209f938fd25818",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/infografis/nasional-infografis": {
+   "timestamp": 1793936659121,
+   "status": "success",
+   "contentHash": "ce272ea14789a05a",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/hype/read/2026/11/04/222359866/cakra-khan-bawa-pulang-piala-ami-awards-kemenangan-tim": {
+   "timestamp": 1793936659658,
+   "status": "success",
+   "contentHash": "f9086e4b1465e313",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/infografis/infografis-olahraga": {
+   "timestamp": 1793936664119,
+   "status": "success",
+   "contentHash": "2f49295705fd58e5",
+   "consecutiveErrors": 0
+  },
+  "https://www.kompas.com/tren/read/2026/11/04/220100465/guyur-ratusan-juta-dollar-untuk-republik-tapi-kalah-musk-singgung-laser": {
+   "timestamp": 1793936664357,
+   "status": "success",
+   "contentHash": "67596b32bb64378e",
+   "consecutiveErrors": 0
+  },
+  "https://entertainment.kompas.com/read/2026/11/04/214409566/dmasiv-putus-kerja-sama-dengan-rans-entertainment-untuk-tur-asia": {
+   "timestamp": 1793936668554,
+   "status": "success",
+   "contentHash": "9b507b3568bf4ccd",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/infografis/tips-infografis": {
+   "timestamp": 1793936668446,
+   "status": "success",
+   "contentHash": "97021019fd613943",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/infografis/meme": {
+   "timestamp": 1793936673110,
+   "status": "success",
+   "contentHash": "b8e9b51ad878884a",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/infografis/karikatur": {
+   "timestamp": 1793936677670,
+   "status": "success",
+   "contentHash": "adb65c27143db29f",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ramadhan": {
+   "timestamp": 1793936681566,
+   "status": "success",
+   "contentHash": "bd78fdc1a6374e99",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ramadhan/kabar-ramadhan": {
+   "timestamp": 1793936686377,
+   "status": "success",
+   "contentHash": "c2978e7c6331453e",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ramadhan/kuliner-ramadhan": {
+   "timestamp": 1793936690296,
+   "status": "success",
+   "contentHash": "bf27595ba97f3be0",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ramadhan/fiqih-ramadhan": {
+   "timestamp": 1793936694573,
+   "status": "success",
+   "contentHash": "f25390389adf7162",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ramadhan/finansial-ramadhan": {
+   "timestamp": 1793936698919,
+   "status": "success",
+   "contentHash": "9a45202978aff502",
+   "consecutiveErrors": 0
+  },
+  "https://republika.co.id/kanal/ramadhan/visual-ramadhan": {
+   "timestamp": 1793936703435,
+   "status": "success",
+   "contentHash": "d4d049fca939dbcb",
+   "consecutiveErrors": 0
   }
+ },
+ "domains": {
+  "kompas.com": {
+   "failures": 0,
+   "blockedUntil": 0,
+   "daily": {
+    "date": "2026-11-06",
+    "count": 107
+   }
+  },
+  "detik.com": {
+   "failures": 0,
+   "blockedUntil": 0,
+   "daily": {
+    "date": "2026-11-06",
+    "count": 3
+   }
+  },
+  "antaranews.com": {
+   "failures": 0,
+   "blockedUntil": 0
+  },
+  "tempo.co": {
+   "failures": 1,
+   "blockedUntil": 0
+  },
+  "republika.co.id": {
+   "failures": 0,
+   "blockedUntil": 0,
+   "daily": {
+    "date": "2026-11-06",
+    "count": 120
+   }
+  },
+  "lestari.kompas.com": {
+   "failures": 0,
+   "blockedUntil": 0
+  },
+  "news.detik.com": {
+   "failures": 0,
+   "blockedUntil": 0
+  },
+  "ekonomi.republika.co.id": {
+   "failures": 0,
+   "blockedUntil": 0
+  },
+  "entertainment.kompas.com": {
+   "failures": 0,
+   "blockedUntil": 0,
+   "daily": {
+    "date": "2026-11-06",
+    "count": 12
+   }
+  },
+  "edukasi.kompas.com": {
+   "failures": 0,
+   "blockedUntil": 0,
+   "daily": {
+    "date": "2026-11-06",
+    "count": 1
+   }
+  }
+ }
 }
