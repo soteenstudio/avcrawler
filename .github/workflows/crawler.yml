@@ -1,0 +1,81 @@
+name: Polite Web Crawler
+
+on:
+  schedule:
+    # Jalan tiap 6 jam sekali (sesuaikan cron-nya)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Biar bisa di-run manual dari tab Actions di GitHub
+
+# Jangan sampai dua run jalan bersamaan (bisa tabrakan nulis history & push)
+concurrency:
+  group: polite-crawler
+  cancel-in-progress: false
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35 # Pengaman terakhir dari GitHub, di atas batas crawler (25m)
+    permissions:
+      contents: write # Wajib biar actions bisa push commit balik ke repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+      # Lapis 1: crawler berhenti sendiri dengan rapi di menit ke-20 (MAX_RUNTIME_MIN)
+      # Lapis 2: kalau masih nyangkut, `timeout` kirim SIGTERM di menit ke-25 (shutdown rapi),
+      #          lalu SIGKILL 30 detik kemudian kalau tetap tidak mau berhenti.
+      - name: Run Crawler Script
+        env:
+          MAX_RUNTIME_MIN: '20'
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=30s 25m node crawler.js
+          code=$?
+          case $code in
+            0) ;;
+            124|137|143)
+              echo "::warning::Crawler dihentikan paksa (exit $code). History akan divalidasi sebelum commit." ;;
+            *)
+              echo "::error::Crawler gagal (exit $code)"
+              exit $code ;;
+          esac
+
+      # Lapis 3: pastikan history/data tidak rusak sebelum masuk ke repo.
+      # `always()` supaya tetap jalan walau langkah crawler timeout atau gagal.
+      - name: Validate Data (anti-corrupt)
+        if: always()
+        run: node scripts/validate-data.js
+
+      - name: Commit and Push Changes (History update)
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          for f in data/history.json data/articles.jsonl; do
+            [ -f "$f" ] && git add "$f"
+          done
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan untuk di-commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update crawler data [skip ci]"
+
+          for i in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push && exit 0
+            echo "Push gagal (percobaan $i), coba lagi..."
+            sleep 5
+          done
+          exit 1
